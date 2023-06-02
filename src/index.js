@@ -1,10 +1,11 @@
-import "./styles.css";
+/**
+ * cost, let等の変数宣言
+ */
+var vall = "var変数";
+console.log(vall);
 
-document.getElementById("app").innerHTML = `
-<h1>Hello Vanilla!</h1>
-<div>
-  We use the same configuration as Parcel to bundle this sandbox, you can find more
-  info about Parcel 
-  <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
-  </div>
-`;
+vall = "var上書き";
+console.log(vall);
+
+var vall = "再宣言";
+console.log(vall);
